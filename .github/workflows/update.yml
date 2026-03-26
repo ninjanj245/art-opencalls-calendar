@@ -5,6 +5,9 @@ on:
     - cron: "0 6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write   # 👈 TO JE KLJUČNO
+
 jobs:
   build:
     runs-on: ubuntu-latest
