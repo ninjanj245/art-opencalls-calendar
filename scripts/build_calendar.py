@@ -1,4 +1,4 @@
-```python
+
 import json
 from datetime import datetime, timedelta
 from icalendar import Calendar, Event, Alarm
